@@ -60,6 +60,7 @@ html{
 }
 }
 body{
+	background-color: #E5E5E5;
 	font-family: "Montserrat", sans-serif;
 }
 a{
@@ -67,7 +68,7 @@ a{
 	color: black;
 }
 main{
-	margin: 15px 10vw 0 10vw;
+	margin: 10px 10vw 0 10vw;
 }
 /*============================================
 				    TOPO
@@ -99,15 +100,8 @@ main.Works section:last-child{
 }
 main.Works h1{
 	font-weight: 400;
-	font-size: 2.2rem;
+	font-size: 2.3rem;
 	margin: 2vw 0 2vw 0;
-}
-main.Works section h2{
-	font-size: 1.4rem;
-	font-weight: bold;
-}
-main.Works section p.dashboard{
-	margin: 1vw 0 2vw 0;
 }
 main.Works section p span.ano{
 	margin: 0px 2px 0px 0;
@@ -128,10 +122,12 @@ main section.banner{
 }
 main section.banner h1{
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 2.3rem;
+	color: rgb(33, 36, 61);
 }
 section.banner p{
 	margin: 2vw 0 3px 0;
+	color:rgb(33, 36, 61);
 }
 section.banner button{
 	background-color: #FF6464;
@@ -139,19 +135,68 @@ section.banner button{
 	color: white;
 	padding: 5px 5px 5px 5px;
 	border: 0;
-} 
+}
+section.recent-posts{
+	padding: 4vw 2vw 4vw 2vw;
+	background-color: #dadbe2;
+}
+section.recent-posts h2{
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #21243D;
+	margin: 0 0 1vw 0px;
+}
+section.recent-posts ul{
+	display: flex;
+}
+section.recent-posts li{
+	background-color: white;
+	margin: 0 1vw 0 0;
+	padding: 2vw 1vw 2vw 1vw;
+}
+section.recent-posts li:last-child{
+	margin: 0 0 0 0;
+}
+section.recent-posts li h3{
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+section.recent-posts li p{
+	margin: 1.2vw 0 1vw 0;
+}
+section.featured-works > div{
+	display: flex;
+}
+section.featured-works div h3{
+	margin: 1vw 0 1vw 0;
+	font-weight: bold;
+	font-size: 1.4rem;
+	font-size: 1.3rem;
+	color: #21243D;
+}
+section.featured-works h2{
+	font-weight: 500;
+	color: #21243D;
+	margin: 1vw 0 1vw 0;
+	font-size: 1.3rem;
+}
+section.featured-works p span.ano{
+	background-color: #FF6464;
+	color: white;
+	border-radius: 12px;
+	padding: 0px 6px 0px 6px;
+	margin: 0px 2px 0px 0;
+}
+section.featured-works p{
+	margin: 1vw 0 1vw 0;
+}
 /*============================================
 				 RODAPÉ
 =============================================*/
-footer{
-	text-align: center;
-	margin: 0 0 20px 0;
-}
-footer ul{
-	display: flex;
-	justify-content: center;
-}
 footer ul li{
 	margin: 5px 15px 5px 4px;
 	font-size: 1.5rem;
+}
+footer ul{
+	display: flex;
 }
