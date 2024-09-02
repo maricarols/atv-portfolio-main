@@ -52,12 +52,13 @@ footer, header, hgroup, menu, nav, section {
 	table {
 		border-collapse: collapse;
 		border-spacing: 0;
+	}
 /*========================================
                  ✮GERAL✮
 ========================================== */
+
 html{
     font-size: calc(10px + 0.390625vw);
-}
 }
 body{
 	background-color: #E5E5E5;
